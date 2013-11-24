@@ -78,10 +78,12 @@ submitBtn.onclick = function(event) {
 				if (book.value === "") {
 					alert("请不要有多余的空书名！！！");
 					book.focus();
+					flag = false;
 					event.preventDefault();
 				}
 			}
-			alert("提交成功，谢谢你的参与与合作！");
+			if (flag)
+				alert("提交成功，谢谢你的参与与合作！");
 		} else {
 			alert("提交成功，谢谢你的参与与合作！");
 		}
