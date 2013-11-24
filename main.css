@@ -1,0 +1,124 @@
+/**** global ****/
+body {
+	width: 520px;
+	margin: 0 auto;
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background: #eee;
+	color: #333;
+	padding-top: 20px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.bookApp {
+	background-color: white;
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 40px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+}
+/**** content ****/
+.bookApp h1 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.bookApp .ps {
+	text-align: left;
+	width: 60%;
+	margin: 0px auto;
+}
+.bookApp .declare {
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+.bookApp .content {
+	font-size: 18px;
+	padding-left: 30px;
+	margin-top: 4px;
+}
+.bookApp form {
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+/**** button ****/
+.bookApp form span {
+	font-family: 'Comic Sans MS', 'Chaparral Pro Light', arial;
+}
+.bookApp input[type="text"] {
+	font-size: 24px;
+	padding: 6px;
+	border: 1px solid #999;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+}
+/*.bookApp input[type="text"]:focus {
+	border: 1px solid #585eaa;
+}*/
+.bookApp input[type="submit"] {
+	width: 90px;
+	margin: 10px auto;
+	text-align: center;
+	cursor: pointer;
+	background: #71CDC9;
+	border-radius: 3px;
+	font-size: 24px;
+	font-family: 'Comic Sans MS', 'Chaparral Pro Light', arial;
+}
+.bookApp input[type="submit"]:hover {
+	background: #79BEBB;
+}
+.bookApp button {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 1em;
+	font-weight: 900;
+	font-size: 48px;
+	cursor: pointer;
+	background: #4792FF;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 0;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 0;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 0;
+}
+.bookApp button:hover {
+	background: #76A8F0;
+}
+
+.deleteBtn {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	background: #555;
+	margin-left: -25px;
+	position: absolute;
+	right: -32px;
+	top: 10px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 900;
+	/*visibility: hidden;*/
+}
+.deleteBtn:hover {
+	background: #281f1d;
+}
+
+/**** footer ****/
+.footer {
+	border-top: 1px solid #888;
+	padding-top: 5px;
+	width: 100%;
+	text-align: center;
+}
